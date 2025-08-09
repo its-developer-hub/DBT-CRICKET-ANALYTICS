@@ -7,6 +7,6 @@ sources:
 
       
       tables:
-        - name: tournaments
+        - name: tournaments_view
           description: "Table for storing Sportradar Cricket API data"
           freshness: null
