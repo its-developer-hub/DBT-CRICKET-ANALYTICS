@@ -2,8 +2,8 @@
 
 {{ config(
           materialized='view',
-          database='dev_stage_db',
-          schema='hist_stage'
+          database='dev_data_lake',
+          schema='raw_stage_cricket'
           ) }}
 
 SELECT  value:id::string AS Tournament_ID,
