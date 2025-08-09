@@ -10,7 +10,3 @@ sources:
         - name: tournaments
           description: "Table for storing Sportradar Cricket API data"
           freshness: null
-
-        - name: tournaments_view
-          description: "Table for storing Sportradar Cricket API data"
-          freshness: null

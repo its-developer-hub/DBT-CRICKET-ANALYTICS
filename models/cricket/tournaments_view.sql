@@ -1,6 +1,10 @@
 -- Read data from Tournaments_view to Tournaments table
 
-{{ config(materialized='view') }}
+{{ config(
+          materialized='view',
+          database='dev_stage_db',
+          schema='hist_stage'
+          ) }}
 
 SELECT  value:id::string AS Tournament_ID,
         value:name::string AS Tournament_Name,
