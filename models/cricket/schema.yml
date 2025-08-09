@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+    - name: cricket
+      database: dev_data_lake
+      schema: raw_stage_cricket
+
+      tables:
+        - name: tournaments_view
+          description: "Table for storing Sportradar Cricket API data"
+          freshness: null
