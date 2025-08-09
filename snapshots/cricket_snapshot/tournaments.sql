@@ -3,7 +3,7 @@
 {{
 
     config(
-      target_database = 'dev_stage_db'
+      target_database = 'dev_stage_db',
       target_schema = 'hist_stage',
       unique_key = 'tournament_id',
       strategy = 'check',
