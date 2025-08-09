@@ -1,4 +1,7 @@
-{{ config(materialized='table') }}
+{{ config(materialized='table',
+          database='dev_data_lake',
+          schema='raw_stage_cricket'
+          ) }}
 
 with source_data as (
 
