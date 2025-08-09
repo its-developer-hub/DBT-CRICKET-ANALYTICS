@@ -38,5 +38,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   my_new_project:
     # Applies to all files under models/example/
+    schema: raw_stage_cricket
     example:
       +materialized: table
